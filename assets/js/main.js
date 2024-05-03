@@ -129,3 +129,22 @@ sr.reveal(`.home__images`, {delay: 800, origin: 'bottom'})
 sr.reveal(`.logos__img`, {interval: 100})
 sr.reveal(`.value__images, .contact__content`, {origin: 'left'})
 sr.reveal(`.value__content, .contact__images`, {origin: 'right'})
+
+
+/*=============== NUMBERS COUNTING ANIMATION ===============*/
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 4000;
+
+valueDisplays.forEach((valueDisplay) => {
+    let startValue = 0;
+    let endValue = parseInt(valueDisplay.getAttribute
+    ("data-val"));
+    let duration = Math.floor(interval / endValue);
+    let counter = setInterval(function (){
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if(startValue == endValue){
+            clearInterval(counter);
+        }
+    }, duration)
+})
