@@ -1455,23 +1455,23 @@ body.dark-theme{
   .home__container{
     column-gap: 4rem;
   }
+
+  .nav__menu{
+    margin-left: 315px;
+  }
   
 }
 
 @media screen and (max-width: 1040px){
 
   .lines{
-    top: 18%;
+    top: 15%;
     right: 5%;
   }
 
   .change-theme{
-    margin-right: 122px;
+    margin-right: 15%;
     margin-left: 5px;
-  }
-
-  .nav__menu{
-    margin-left: 315px;
   }
 
 }
