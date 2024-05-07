@@ -142,7 +142,7 @@ sr.reveal(`.value__content, .contact__images`, {origin: 'right'})
 
 /*=============== NUMBERS COUNTING ANIMATION ===============*/
 let valueDisplays = document.querySelectorAll(".num");
-let interval = 4000;
+let interval = 7000;
 
 valueDisplays.forEach((valueDisplay) => {
     let startValue = 0;
