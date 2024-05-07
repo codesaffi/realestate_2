@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="properties.css" />
+
+    <!--=============== FONTS-AWSOME ===============-->
+    <script
+      src="https://kit.fontawesome.com/d485adabe0.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    <title>Responsive real state website - Bedimcode</title>
+
+  </head>
+
+  <body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          holux <i class="bx bxs-home-alt-2"></i>
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">
+                <i class="bx bx-home-alt-2"></i>
+                <span>home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="index.html#popular" class="nav__link">
+                <i class="bx bx-building-house"></i>
+                <span>residences</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="index.html#value" class="nav__link">
+                <i class="bx bx-award"></i>
+                <span>value</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="index.html#contact" class="nav__link">
+                <i class="bx bx-phone-call"></i>
+                <span>contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- theme change button  -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+            <div>
+        <span id="lines" class="lines" onclick="openNav()">&#9776;</span>
+        <div id="sidebar" class="sidebar">
+            <span class="close" onclick="closeNav()">&times;</span>
+            <ul>
+              <li><a href="index.html">  <i class="fa-solid fa-house">   </i>  home</a></li>
+                <li><a href="#"> <i class="fa-solid fa-user"> </i>  about us</a></li>
+                <li><a href="#">  <i class="fa-solid fa-hotel"></i> properties</a></li>
+                <li><a href="#"> <i class="fa-solid fa-list-check"> </i>  projects</a></li>
+                <li><a href="#"> <i class="fa-solid fa-camera"> </i>  gallery</a></li>
+                <li><a href="#"> <i class="fa-solid fa-phone"> </i>  contact us</a></li>
+            </ul>
+        </div>
+      </div>
+
+      </nav>
+
+    </header>
+
+
+
+    <!--==================== ALL PRODUCTS ====================-->
+    <div class="container-fluid section">
+      <div class="container">
+        <div class="search">
+          <h1>All Products</h1>
+
+          <input
+            type="text"
+            name=""
+            id="find"
+            placeholder="search here...."
+            onkeyup="search()"
+          />
+        </div>
+
+        <div class="product-list">
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">water assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">fire assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">mountain assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">garden assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">lake assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">park assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">snow assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">flower assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+
+          <article class="product box">
+            <img src="popular1.jpg" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <h2 class="popular__price"><span>$</span>66,356</h2>
+
+              <h3 class="popular__title">tree assat</h3>
+
+              <p class="popular__description">
+                street the garden city of miraflores, lima - peru av. sol #9876
+              </p>
+
+              <a href="#" class="button nav__button"> book </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            holux <i class="bx bxs-home-alt-2"></i>
+          </a>
+
+          <p class="footer__description">
+            Our vision is to make all people <br />
+            the best place to live for them.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">about</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">about us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">features</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">news & blogs</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">how we work?</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">capital</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">security</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">support</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">FAQS</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">support center</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">contact us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">follow us</h3>
+
+            <ul class="footer__social">
+              <a href="#" class="footer__social-link">
+                <i class="bx bxl-facebook-circle"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+              <a href="#" class="footer__social-link">
+                <i class="bx bxl-youtube"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy">
+          &#169; Bedimcode. All rigths reserved
+        </span>
+
+        <div class="footer__privacy">
+          <a href="#">terms & agreements</a>
+          <a href="#">privacy policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-chevrons-up"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="properties.js"></script>
+
+  </body>
+
+</html>
