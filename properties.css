@@ -819,22 +819,22 @@ letter-spacing: 3px;
     margin-right: auto;
   }
 
+  .nav__menu{
+    margin-left: 315px;
+  }
+
 }
 
 @media screen and (max-width: 1040px){
 
   .lines{
-    top: 18%;
+    top: 15%;
     right: 5%;
   }
 
   .change-theme{
-    margin-right: 122px;
+    margin-right: -45%;
     margin-left: 5px;
-  }
-
-  .nav__menu{
-    margin-left: 315px;
   }
 
 }
@@ -854,7 +854,3 @@ letter-spacing: 3px;
     zoom: 2
   }
 }
-
-
-
-
