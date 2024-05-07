@@ -18,7 +18,7 @@
   --border-color: hsl(228, 99%, 98%);
   --body-color: #fff;
   --container-color: #fff;
-  --sidebar-color: rgba(23, 22, 22, 0.4);
+  --sidebar-color: rgba(23, 22, 22, 0.6);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -1465,7 +1465,7 @@ body.dark-theme{
 @media screen and (max-width: 1040px){
 
   .lines{
-    top: 10%;
+    top: 9%;
     right: 5%;
   }
 
