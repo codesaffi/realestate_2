@@ -228,7 +228,7 @@ body.dark-theme{
 }
 
 .nav__logo{
-  /* color: #fff; */
+  color: var(--first-color);
   display: inline-flex;
   align-items: center;
   column-gap: .25rem;
@@ -246,10 +246,10 @@ body.dark-theme{
 
 .lines{
   position: absolute;
-  top: 23px;
-  right: 30px;
+  top: 17px;
+  right: 35px;
   font-size: 28px;
-  color: blue;
+  color: var(--first-color);
   cursor: pointer;
   z-index: 999;
   display: block;
@@ -260,7 +260,7 @@ body.dark-theme{
   top: 20px;
   left: 190px;
   font-size: 28px;
-  color: blue;
+  color: var(--first-color);
   cursor: pointer;
   z-index: 999;
 }
@@ -280,7 +280,7 @@ body.dark-theme{
 }
 
 .sidebar ul li a{
-  color: white;
+  color: var(--first-color);
   font-size: 20px;
   margin: 10px 30px;
   display: block;
@@ -1465,7 +1465,7 @@ body.dark-theme{
 @media screen and (max-width: 1040px){
 
   .lines{
-    top: 15%;
+    top: 12%;
     right: 5%;
   }
 
