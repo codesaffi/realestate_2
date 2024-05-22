@@ -312,62 +312,84 @@
           <!--=============== chat bot ===============-->
           <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
           <script>
-        window.botpressWebChat.init({
-            "composerPlaceholder": "chat with agent",
-            "botConversationDescription": "your agent",
-            "botId": "a5f39509-97b1-40ae-8a4b-63423f627cab",
-            "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-            "messagingUrl": "https://messaging.botpress.cloud",
-            "clientId": "a5f39509-97b1-40ae-8a4b-63423f627cab",
-            "webhookId": "92b1acdb-08a6-4ae6-9006-18fa5c523058",
-            "lazySocket": true,
-            "themeName": "prism",
-            "botName": "society bot",
-            "avatarUrl": "https://seeklogo.com/images/N/new-metro-city-housing-scheme-logo-4EE2721EDF-seeklogo.com.png",
-            "stylesheet": "https://webchat-styler-css.botpress.app/prod/30dc20ff-1296-4074-83c1-9cb543a07c60/v40202/style.css",
-            "frontendVersion": "v1",
-            "useSessionStorage": true,
-            "enableConversationDeletion": true,
-            "theme": "prism",
-            "themeColor": "#2563eb",
-            "allowedOrigins": []
-        });
+            window.botpressWebChat.init({
+                "composerPlaceholder": "chat with agent",
+                "botConversationDescription": "your agent",
+                "botId": "a5f39509-97b1-40ae-8a4b-63423f627cab",
+                "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+                "messagingUrl": "https://messaging.botpress.cloud",
+                "clientId": "a5f39509-97b1-40ae-8a4b-63423f627cab",
+                "webhookId": "92b1acdb-08a6-4ae6-9006-18fa5c523058",
+                "lazySocket": true,
+                "themeName": "prism",
+                "botName": "society bot",
+                "avatarUrl": "https://seeklogo.com/images/N/new-metro-city-housing-scheme-logo-4EE2721EDF-seeklogo.com.png",
+                "stylesheet": "https://webchat-styler-css.botpress.app/prod/30dc20ff-1296-4074-83c1-9cb543a07c60/v94265/style.css",
+                "frontendVersion": "v1",
+                "useSessionStorage": true,
+                "enableConversationDeletion": true,
+                "theme": "prism",
+                "themeColor": "#2563eb",
+                "allowedOrigins": []
+            });
           </script>
-      
-          <style>
-            @media screen and (max-width: 1023px) {
-              .bp-widget-widget {
-                bottom: 100px;
-                height: 76px !important;
-                left: auto;
-                right: 36px;
-                top: auto;
-                width: 76px !important;
-              }
-      
-              .bp-widget-side {
-              bottom: 3px;
-              height: 90% !important;
-              left: auto;
-              right: 0;
-              top: 0px;
-              width: 480px;
-          }
-        }
-      
-        @media screen and (max-width: 480px) {
+          
+              <style>
+          
+          @media screen and (max-width: 2048px) {
           .bp-widget-side {
-              bottom: 3px;
-              height: 87% !important;
+              bottom: 0;
+              height: 95% !important;
               left: auto;
               right: 0;
-              top: 0px;
+              top: 26px;
               width: 480px;
           }
-        }
-      
-      
-          </style>
+          }
+          
+          
+                @media screen and (max-width: 1023px) {
+                  .bp-widget-widget {
+                    bottom: 100px;
+                    height: 76px !important;
+                    left: auto;
+                    right: 36px;
+                    top: auto;
+                    width: 76px !important;
+                  }
+          
+                  .bp-widget-side {
+                  bottom: 0;
+                  height: 90% !important;
+                  left: auto;
+                  right: 20px;
+                  top: -7px;
+                  width: 460px;
+              }
+            }
+          
+            @media screen and (max-width: 480px) {
+              .bp-widget-side {
+                  bottom: 3px;
+                  height: 85% !important;
+                  left: auto;
+                  right: 6px;
+                  top: -15px;
+                  width: 340px;
+              }
+          
+              .bpw-layout {
+              width: 294px !important;
+              height: 86vh;
+              border-radius: 30px;
+              right: 10px;
+              bottom: 37px;
+              border: 1px;
+          }
+            }
+          
+          
+              </style>
     
 </body>
 </html>
